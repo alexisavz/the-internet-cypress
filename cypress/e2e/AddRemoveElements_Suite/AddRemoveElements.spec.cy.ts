@@ -28,7 +28,7 @@ describe("Add/Remove Elements Page", () => {
         AddRemovePage.elements.deleteButtonContainer().children().first().click()
         AddRemovePage.checkLength(0)
 
-        //Add 100 items
+        //Add n items
         AddRemovePage.addBulk(bulk)
         AddRemovePage.checkLength(bulk)
         AddRemovePage.removeBulk(bulk)
