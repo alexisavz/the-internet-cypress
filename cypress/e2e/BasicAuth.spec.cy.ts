@@ -1,4 +1,4 @@
-import BasicAuth from "../../pages/BasicAuthPage";
+import BasicAuth from "../pages/BasicAuthPage";
 
 describe("Basic Authentication page functionality", () => {
   it("click on the login button of the authentication form", () => {

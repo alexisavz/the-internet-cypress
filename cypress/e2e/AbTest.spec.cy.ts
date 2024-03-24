@@ -1,4 +1,4 @@
-import ABTest from "../../pages/ABTesting";
+import ABTest from "../pages/ABTesting";
 
 describe("AB Testing page automation", () => {
   beforeEach(() => {
