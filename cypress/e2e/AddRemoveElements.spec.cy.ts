@@ -1,5 +1,5 @@
 import { should } from "chai"
-import AddRemovePage from "../../pages/AddRemoveElements"
+import AddRemovePage from "../pages/AddRemoveElements"
 
 describe("Add/Remove Elements Page", () => {
 
