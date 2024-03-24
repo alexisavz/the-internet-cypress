@@ -1,4 +1,4 @@
-import BrokenImages from "../../pages/BrokenImages";
+import BrokenImages from "../pages/BrokenImages";
 
 describe("Test for Broken Images", () => {
   beforeEach(() => {

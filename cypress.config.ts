@@ -5,6 +5,7 @@ export default defineConfig({
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
-    baseUrl: "https://the-internet.herokuapp.com"
+    baseUrl: "https://the-internet.herokuapp.com",
+    chromeWebSecurity: false,
   },
 });
